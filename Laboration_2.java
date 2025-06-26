@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
+/*
  * Program som läser in en mening och ett tecken, och sedan:
  *  - Kontrollerar att meningen inte är tom och att tecknet är exakt ett tecken långt
  *  - Räknar det totala antalet tecken i meningen
  *  - Räknar hur många gånger det angivna tecknet förekommer
  *  - Bestämmer index för första och sista förekomsten av tecknet
+*/
     
 public class CharacterAnalyzer {
     public static void main(String[] args) {
@@ -50,7 +52,7 @@ public class CharacterAnalyzer {
             if (mening.charAt(i) == tecken) {
                 count++;
                 if (firstIndex == -1) {
-                    firstIndex = i;      // Spara första förekomst
+                    firstIndex = i;  // Spara första förekomst
                 }
                 lastIndex = i;           // Uppdatera sista förekomst
             }
