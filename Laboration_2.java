@@ -54,11 +54,11 @@ public class CharacterAnalyzer {
                 if (firstIndex == -1) {
                     firstIndex = i;  // Spara första förekomst
                 }
-                lastIndex = i;           // Uppdatera sista förekomst
+                lastIndex = i;   // Uppdatera sista förekomst
             }
         }
 
-        // Skriv ut resultat
+        // Print res
         System.out.println("Totalt antal tecken: " + totalLength);
         System.out.println("Tecknet '" + tecken + "' förekommer " + count + " gånger.");
 
