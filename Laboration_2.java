@@ -6,7 +6,7 @@ import java.util.Scanner;
  *  - Räknar det totala antalet tecken i meningen
  *  - Räknar hur många gånger det angivna tecknet förekommer
  *  - Bestämmer index för första och sista förekomsten av tecknet
- */
+    
 public class CharacterAnalyzer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
