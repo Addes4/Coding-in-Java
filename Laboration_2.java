@@ -54,7 +54,7 @@ public class CharacterAnalyzer {
                 if (firstIndex == -1) {
                     firstIndex = i;  // Spara första förekomst
                 }
-                lastIndex = i;   // Uppdatera sista förekomst
+                lastIndex = i;   // Upd sista förekomst
             }
         }
 
