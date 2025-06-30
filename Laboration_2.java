@@ -12,7 +12,7 @@ public class CharacterAnalyzer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Läs in en mening
+        // Läs in mening
         System.out.print("Skriv en mening: ");
         String mening = scanner.nextLine();
 
